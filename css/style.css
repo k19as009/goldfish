@@ -1,0 +1,451 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin: 0 ;
+	padding: 0;
+	border: none;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+#container{
+	width: 100%;
+	margin: 0 auto;
+	height: 100%;
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+
+
+/*video*/
+.video {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  height: auto;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+
+
+.bg1 {
+		position: absolute;
+		background:linear-gradient(#FFF,#6b8eae,#003c74,#002a54,#000515,#002a54,#6b8eae,#FFF);
+		top: 450px;
+		width: 100%;
+		height: 4900px;
+		margin: 56vw auto;
+    padding:  0px;
+}
+
+
+.bg2{
+		position: absolute;
+		background:linear-gradient(#FFF,#000,#000);
+		top:6500px;
+		width: 100%;
+		height: 1500px;
+		margin: 56vw auto;
+		padding: 0;
+}
+
+.bg3{
+		position: absolute;
+		background:linear-gradient(#FFF,#6b8eae,#003c74,#002a54,#000515,#00061a,#000515,#002a54,#6b8eae,#FFF);
+		top:10100px;
+		width: 100%;
+		height: 12800px;
+		margin: 56vw auto;
+		padding: 0;
+}
+
+
+
+.img-1{
+	position: absolute;
+	margin: 56vw auto;
+	right:0%;
+	top:5400px;
+	text-align:right;
+}
+
+.img-2{/*金魚*/
+	position: absolute;
+	max-width: 100%;
+	margin: 56vw auto;
+	left:70%;
+	top:9400px;
+	margin-left:-600px;
+	text-align:center;
+}
+
+
+.img-3{
+	position: absolute;
+	margin: 56vw auto;
+	left:54%;
+	top:12090px;
+	margin-left:-600px;
+	text-align:center;
+	opacity: 0.8;
+	filter: drop-shadow( 3px 20px 50px #000 );
+}
+
+.img-4{
+	position: absolute;
+	margin: 56vw auto;
+	left:55%;
+	top:12700px;
+	margin-left:-600px;
+	text-align:center;
+	opacity: 0.8;
+	filter: drop-shadow( 3px 20px 50px #000 );
+}
+
+.img-5{
+	position: absolute;
+	margin: 56vw auto;
+	left: 47%;
+	top:13300px;
+	margin-left:-600px;
+	text-align:center;
+	opacity: 0.8;
+	filter: drop-shadow( 3px 20px 50px #000 );
+}
+
+
+
+
+
+
+.box_tate{
+	position: absolute;
+	-ms-writing-mode: tb-rl;
+ 	writing-mode: vertical-rl;
+	line-height: 55px;
+	max-width: 100%;
+	margin: 56vw auto;
+}
+
+.box_yoko{
+	position: absolute;
+	line-height: 55px;
+	max-width: 100%;
+	margin: 56vw auto;
+}
+
+
+
+
+
+
+#box1{
+	top: 1150px;
+	right:15%;
+  height:800px;
+	font-size: 1.2rem;
+}
+
+.box2{
+	position: absolute;
+	-ms-writing-mode: tb-rl;
+ 	writing-mode: vertical-rl;
+	line-height: 45px;
+	max-width: 100%;
+	margin: 56vw auto;
+	color: #1a1a1a;
+	top:1750px;
+	left:20%;
+  height:400px;
+	font-size: 1.4rem;
+	text-shadow:0 0 0.5rem gray;
+}
+
+.box3{
+	position: absolute;
+	line-height: 45px;
+	max-width: 800px;
+	margin: 56vw auto;
+	top: 2300px;
+	left:5%;
+  height:610px;
+	color: #999;
+	font-size: 1.2rem;
+}
+
+#box4{/*呼吸が止まる*/
+	top: 3200px;
+	left:50%;/*中心スタートで文字を書く*/
+  height:100px;
+	font-size: 40px;
+	color: #FFF;
+	font-size: 2.4rem;
+	transform: translateX(-50%);/*オブジェクトを半分左にずらす*/
+}
+
+
+.box5{
+	position: absolute;
+	line-height: 45px;
+	max-width: 675px;
+	margin: 56vw auto;
+	top: 3600px;
+  height:700px;
+	right:5%;
+	text-align: right;
+	color: #999;
+	font-size: 1.2rem;
+}
+
+
+#box6{/*彼女もまた*/
+	top: 4500px;
+	left:58%;
+  height:700px;
+	color:333333;
+	font-size: 1.2rem;
+}
+
+#box7{
+	top: 5100px;
+	left:20%;
+  height:800px;
+	font-size: 1.2rem;
+}
+
+#box8{
+	top: 6050px;
+	left:10%;
+  height:700px;
+	font-size: 1.2rem;
+}
+
+span {
+    color: #c9171e;
+}
+
+#box9{/*たまらなくなって*/
+	color: #666666;
+	top: 7000px;
+	left:50%;
+  height:300px;
+	font-size: 1rem;
+}
+
+.box10{
+	position: absolute;
+	line-height: 70px;
+	max-width: 900px;
+	margin: 56vw auto;
+	color: gray;
+	top: 7500px;
+	left:51%;
+	transform: translateX(-50%);
+  height:300px;
+	text-align:center;
+	font-size: 1.1rem;
+}
+
+#box11{
+	top: 8300px;
+	left:50%;
+  height:10px;
+	font-size: 1rem;
+}
+
+#box12{
+	top: 8600px;
+	left:50%;
+	transform: translateX(-50%);
+  height:900px;
+  background:
+      linear-gradient(217deg, rgba(44,79,84,.8), rgba(153,132,89,0) 70.71%),
+      linear-gradient(127deg, rgba(68,97,123,.8), rgba(56,180,139,0) 70.71%),
+      linear-gradient(336deg, rgba(0,0,128,.8), rgba(5,11,26,0) 70.71%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+	font-size: 1.2rem;
+}
+
+ruby {
+ruby-align: distribute-space;
+ruby-overhang: none;
+ruby-position: above;
+}
+
+#box13{/*雨はいっそう*/
+	top: 10600px;
+	left:54%;
+  height:530px;
+	font-size: 1.2rem;
+}
+
+.box14{
+	position: absolute;
+	line-height: 45px;
+	max-width: 675px;
+	margin: 56vw auto;
+	top: 11500px;
+	left:5%;
+  height:300px;
+	font-size: 1.2rem;
+}
+
+#box15{
+	top: 11900px;
+	right:7%;
+  height:300px;
+	line-height: 200px;
+	text-align: right;
+	font-size: 1.2rem;
+}
+
+.box16{/*玄乃？*/
+	position: absolute;
+	line-height: 45px;
+	max-width: 675px;
+	margin: 56vw auto;
+	color: #FFF;
+	top: 14350px;
+	left:50%;
+  height:100px;
+	font-size: 0.5rem;
+}
+
+#box17{
+	color: gray;
+	top: 15300px;
+	left:5%;
+  height:1000px;
+	font-size: 1.2rem;
+}
+
+#box18{
+	top: 16300px;
+	left:80%;
+  height:400px;
+	color: #fff;
+	font-size: 1.3rem;
+}
+
+#box19{/*朱李の家が*/
+	top: 16800px;
+	left:50%;
+	transform: translateX(-50%);
+  height:6500px;
+	line-height: 800px;
+	background:linear-gradient(#FFF,gray,darkgray);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	text-align:center;
+	font-size: 1.1rem;
+}
+
+
+#box20{
+	top: 24500px;
+	left:51%;
+	transform: translateX(-50%);
+  height:900px;
+	font-size: 1.4rem;
+}
+
+
+#box21{
+	top: 26500px;
+	left:53%;
+	transform: translateX(-50%);
+  height:100px;
+	font-size: 1rem;
+}
+
+#box22{
+	top: 28900px;
+	right:20%;
+  height:400px;
+	font-size: 1.2rem;
+}
+
+#box23{
+	top: 29200px;
+	left:20%;
+  height:250px;
+	color: gray;
+	font-size: 1rem;
+}
+
+#box24{
+	top: 30500px;
+	left:10%;
+  height:300px;
+	font-size: 1.2rem;
+}
+
+.box25{
+	position: absolute;
+	-ms-writing-mode: tb-rl;
+ 	writing-mode: vertical-rl;
+	line-height: 55px;
+	max-width: 100%;
+	margin: 56vw auto;
+	top: 31800px;
+	right:15%;
+  height:700px;
+	font-size: 1.1rem;
+}
+
+.box26{
+	position: absolute;
+	line-height: 55px;
+	max-width: 100%;
+	margin: 56vw auto;
+	top: 33000px;
+	left:51%;
+	transform: translateX(-50%);
+  height:100px;
+	font-size: 1rem;
+	-webkit-box-reflect: below -130px
+	-webkit-gradient(linear, left bottom, left top,
+		from(#FFF), to(transparent));
+}
+
+#box27{
+	top: 34000px;
+	left:10%;
+  height:1000px;
+	font-size: 1.4rem;
+}
+
+#box28{
+	top: 37000px;
+	left:50%;
+  height:300px;
+	font-size: 1rem;
+}
+
+
+#box29{
+	top: 39000px;
+	left:20%;
+  height:500px;
+	color: gray;
+	font-size: 1.2rem;
+	opacity:0.5;
+	text-shadow: 0px 0px 10px gray;
+}
+
+#box30{
+	top: 40500px;
+	left:60%;
+  height:1000px;
+	color: gainsboro;
+	font-size: 1.5rem;
+	opacity:0.5;
+	text-shadow: 0px 0px 10px gainsboro;
+}
